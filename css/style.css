@@ -133,12 +133,11 @@ background:#fefedc;
 float:left;
 }
 
-.logo h2
+#header-logo
 {
-font-family: cursive;
-vertical-align: middle
-}
+	vertical-align: middle;
 
+}
 
 .menuwrappermobile
 {
