@@ -2,6 +2,14 @@
 	display: none;
 }
 
+.middlecolumn p {
+	color: #fff;
+	text-align: center;
+}
+
+#appointments-img {
+	background: url(../images/orchid.jpg) center center no-repeat;
+}
 
 .footer li, .footer p, .footer li h4 {
 	color: #fff;
