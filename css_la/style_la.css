@@ -2,20 +2,79 @@
 	display: none;
 }
 
+
+.footer li, .footer p, .footer h4 {
+	color: #fff;
+}
 .footer .testimonialbg li{
-font-family:open sans;
-font-size:12px;
-color:#fff;
+	font-family:open sans;
+	font-size:16px;
+}
+
+.footer li h4 {
+	font-size: 18px;
+	display: inline-block;
+	line-height:1.1;
+	margin: 5px 0;
+	font-weight: lighter;
+}
+
+.footer ul, ol {
+	margin: 0 0 10px 0;
 }
 
 .mapcircle-sm {
 width:350px;
 height:250px;
-margin:0 auto 38px auto;
+margin:0;
 background: url(../images/map-square-sm.png) center center no-repeat;
 border:#f2f2d6 solid 5px;
 border-radius:0;
 -moz-border-radius:0;
 -webkit-border-radius:0;
+
+}
+
+
+.testimonial{
+margin-bottom:21px;
+border-bottom:1px dashed #f9c68a;
+}
+.testimonialname {
+text-align:right;
+margin-right:40px;
+font-style:italic;
+font-size:13px;
+line-height:1;
+margin-top:-10px;
+}
+
+
+.testimonialbg
+{padding:10px;
+border-radius:4px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+	position: relative;
+	height: auto;
+
+	background-color:rgba(255,255,255, 0.2);
+
+}
+
+.testimonialbg:before
+{
+	content: none !important;
+	position: absolute;
+	width: 0;
+	height: 0;
+	right: 20px;
+	top: 100%;
+	border-width: 16px 14px 8px 0 ;
+	border-style:solid;
+	border-color: rgba(255,255,255, 0.2) transparent  transparent rgba(255,255,255, 0.2);
+-webkit-border-bottom-left-radius:15px;
+	-moz-border-radius-bottomleft:15px;
+	border-bottom-left-radius:15px;
 
 }
