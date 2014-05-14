@@ -2,6 +2,12 @@
 	display: none;
 }
 
+.underslider {
+	background-color: #fefedc;
+	border-top: none;
+	border-bottom: none;
+}
+
 div .middlecolumn {
 	margin-top: 70px;
 }
