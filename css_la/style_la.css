@@ -19,6 +19,19 @@ div .middlecolumn {
 	text-align: center;
 }
 
+.bulleted {
+	list-style-type: circle;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 10px;
+}
+
+.bulleted li {
+	padding-bottom: 5px;
+	list-style-type: circle;
+	font-size:14px;
+}
+
+
 /* INDEX */
 #appointments-img {
 	background: url(../images/orchid.jpg) center center no-repeat;
