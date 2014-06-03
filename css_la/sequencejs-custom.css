@@ -1,0 +1,208 @@
+/* Custom CSS to modify sequencejs-theme.modern-slide-in.css*/
+
+.sequence-pagination {
+  bottom: 5%;
+  right: 46%;
+  position: absolute;
+  z-index: 10;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.sequence-pagination .paginationslider  {
+background: url(../images/dots.png) top left no-repeat;
+display:block;
+margin-left:7px;
+margin-right:5px;
+float:left;
+cursor:pointer;
+	width: 18px;
+	height: 16px;
+	transition: all 1s;
+-moz-transition: all 1s;
+-webkit-transition:all 1s;
+-o-transition: all 1s;
+
+}
+.sequence-pagination .paginationslider:hover {
+  background: url(../images/dots.png) bottom left no-repeat;
+	transition: all 1s;
+-moz-transition: all 1s;
+-webkit-transition:all 1s;
+-o-transition: all 1s;
+}
+
+.sequence-next,
+.sequence-prev {
+margin-top:-2%;
+  position: absolute;
+  opacity: 0.2;
+  -webkit-transition-duration: 5s;
+  -moz-transition-duration: 5s;
+  -ms-transition-duration: 5s;
+  -o-transition-duration: 5s;
+  transition-duration: 5s;
+}
+
+.sequence-next:hover,
+.sequence-prev:hover {
+  opacity: 1;
+  -webkit-transition-duration: 5s;
+  -moz-transition-duration: 5s;
+  -ms-transition-duration: 5s;
+  -o-transition-duration: 5s;
+  transition-duration: 5s;
+}
+
+.animate-in .title {
+  right: 53%;
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.animate-out .title {
+ right: 35%;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+
+.animate-in .subtitle {
+ right: 45%;
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.animate-out .subtitle {
+  right: 65%;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.animate-in .subtitle1 {
+ right: 55%;
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.animate-out .subtitle1 {
+  right: 65%;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+
+
+.animate-in .buttonslider {
+ right: 43%;
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.animate-out .buttonslider {
+  right: 65%;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+
+.animate-in .model {
+  right: 5%;
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.animate-out .model {
+  right: 25%;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+
+
+.animate-in .title {
+  right: 56%;
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.animate-out .title {
+ right: 35%;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+
+.animate-in .subtitle1 {
+ right: 58%;
+  opacity: 1;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+.animate-out .subtitle1 {
+  right: 65%;
+  opacity: 0;
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -ms-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+}
+
+
+
