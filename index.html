@@ -461,34 +461,19 @@ Our therapists specialize in a full range of physical therapy services, includin
 <script>//<![CDATA[
 $('html, body').ready(function() {
 
-var initialOptions = {
+var options = {
 	thumbs:false,
 	nextButton: false,
 	prevButton: false,
 	pagination: true,
 	animateStartingFrameIn: true,
 	autoPlay: true,
-	autoPlayDelay: 3000,
+	autoPlayDelay: 5000,
 	preloader: true,
 	preloadTheseFrames: [1],
 	preloadTheseImages: [
 	"images/smalldot1.png"
 	]
-}
-
-var options = {
-thumbs:false,
-nextButton: false,
-prevButton: false,
-pagination: true,
-animateStartingFrameIn: true,
-autoPlay: true,
-autoPlayDelay: 3000,
-preloader: true,
-preloadTheseFrames: [1],
-preloadTheseImages: [
-"images/smalldot1.png"
-]
 };
 var mySequence = $("#sequence").sequence(options).data("sequence");
 });
