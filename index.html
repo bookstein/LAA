@@ -473,7 +473,11 @@ var options = {
 	preloadTheseFrames: [1],
 	preloadTheseImages: [
 	"images/smalldot1.png"
-	]
+	],
+	fallback: {
+                theme: "slide",
+                speed: 1000
+            }
 };
 var mySequence = $("#sequence").sequence(options).data("sequence");
 });
