@@ -28,6 +28,15 @@
 
 
 /* INDEX */
+
+.logo h1 {
+	color: #3a4d40;
+	font-size: 32px;
+	font-family: 'Palatino', serif;
+	padding-top: 15px;
+	font-style: italic;
+}
+
 #appointments-img {
 	background: url(../images/orchid.jpg) center center no-repeat;
 	margin: 0 auto 0 auto;
