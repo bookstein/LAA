@@ -22,6 +22,10 @@
 	list-style-position: inside;
 }
 
+.ch-item4.specialimg1{
+	background-image: url(../images/painting1.jpg);
+}
+
 
 /* INDEX */
 #appointments-img {
