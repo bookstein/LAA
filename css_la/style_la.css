@@ -34,6 +34,22 @@
 	border-bottom: none !important;
 }
 
+#linda-photo {
+
+}
+
+#tracy-photo{
+	background-image: url(../images/bios/tracy.jpg);
+}
+
+#britt-photo {
+	background-image: url(../images/bios/britt.jpg);
+}
+
+#anne-photo {
+	background-image: url(../images/bios/anne.jpg);
+}
+
 
 /* FOOTER */
 
